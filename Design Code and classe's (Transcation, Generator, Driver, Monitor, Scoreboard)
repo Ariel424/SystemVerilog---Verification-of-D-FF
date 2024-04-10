@@ -28,6 +28,7 @@ Testbench Code:
 
 class transaction;
   rand bit din;
+  rand bit rst;
   bit dout;
   
   function transaction copy();
