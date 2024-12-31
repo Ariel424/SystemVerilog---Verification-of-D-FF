@@ -181,7 +181,7 @@ moudle tb;
 
     initial begin
       vif.clk <= 0; 
-    end 
+    end
 
     always #10 vif.clk <= ~vif.clk; 
     environment env;
